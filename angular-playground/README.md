@@ -60,8 +60,10 @@
 
 5. Project Structure
     - `.vscode` folder: Contains settings for the IDE.
+    - `angular.json`: Configuration file for Angular projects. It includes project-specific configuration options like build settings, asset paths, and other project-level settings.
     - `node_modules`: Contains all packages installed by npm. If deleted, reinstall by running `npm install`. This folder will not be cloned as it is in `.gitignore`. Run `npm install` after cloning.
     - `package.json` and `package-lock.json`: These files contain dependencies. Whenever `npm install` is executed, Node.js will install dependencies.
+    - `src` folder: Contains the source code for the project.
 
 6. Run the Project
     - Start the development server:

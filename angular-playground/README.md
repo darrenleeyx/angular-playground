@@ -39,6 +39,12 @@
 3. Install IDE - Visual Studio Code (VSCode)
     - Install plugins:
         - Angular Language Service (Editor services for Angular templates)
+        - Prettier - Code formatter
+        - Auto Rename Tag
+        - Tailwind CSS IntelliSense
+        - Tailwind class sorter
+        - Live Server
+        - CodiumAI
 
 4. Create New Angular Project
     - Navigate to your project directory:
@@ -74,3 +80,8 @@
 
 ### Additional Information
 - All shorthand scripts can be found in `package.json` under the `"scripts"` section.
+- All ".spec" files are for testing purposes.
+
+7. Install Tailwind CSS (https://tailwindcss.com/docs/guides/angular)
+    - npm install -D tailwindcss postcss autoprefixer
+    - npx tailwindcss init
